@@ -1,0 +1,8 @@
+# Used by pip to install required python packages
+# Usage: pip install -r requirements.txt
+oauthlib
+turicreate
+selenium
+msgpack
+mime
+openpyxl
