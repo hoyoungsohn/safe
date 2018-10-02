@@ -27,7 +27,8 @@ python3 safe.py
 * 디렉토리
   * *.database* : 현재까지 검색한 게시물에 대한 누적 데이터베이스(pickle 형태) (중복 방지 위함)
   * *classifier_safe-selfharm-dataset.model* : 자해 영상 판별 학습된 Turi Create 신경망
-  * *output_xlsx* : 현재 실행 시 새로 검색한 게시물 정보를 담은 엑셀(.xlsx) 파일이 출력되는 곳
+  * *output_xlsx* : 현재 실행 시 새로 검색한 게시물의 '게시자' 계정 정보(URL)를 담은 엑셀(.xlsx) 파일이 출력되는 곳
+  * *output_list* : 현재 실행 시 새로 검색한 '게시물의 주소' 정보를 담은 텍스트(.txt) 파일이 출력되는 곳
 
 ## 프로그램 실행환경
 기본적으로 Windows 10에서 개발하였으나, Image Classification을 위해 사용한 [Turi Create](https://github.com/apple/turicreate)이 Native Windows는 지원하지 않아, WSL(Windows Subsystem for Linux)의 <b>ubuntu 18.04</b>에서 동작을 확인하였습니다.<br>
