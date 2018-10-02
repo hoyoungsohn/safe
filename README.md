@@ -16,16 +16,16 @@
 자료의 제약으로 대부분 팔에 상처를 입고 피를 흘리고 있는 영상을 학습하게 되었습니다. 일단 확실한 것 위주로 동작할 수 있도록, 직접적으로 신체 부위가 나와있지 않고 피만 나와있거나 한 영상은 일단 불확실한 것으로 분류하였습니다. 추후 데이터셋을 업데이트하여 좀더 분류를 세분화/고도화 할 필요가 있습니다.
 
 ## 프로그램 실행환경
-기본적으로 Windows 10에서 개발하였으나, Image Classification을 위해 사용한 [Turi Create](https://github.com/apple/turicreate)이 Native Windows는 지원하지 않아, WSL(Windows Subsystem for Linux)의 <b>ubuntu 18.04</b>에서 동작을 확인하였습니다.
+기본적으로 Windows 10에서 개발하였으나, Image Classification을 위해 사용한 [Turi Create](https://github.com/apple/turicreate)이 Native Windows는 지원하지 않아, WSL(Windows Subsystem for Linux)의 <b>ubuntu 18.04</b>에서 동작을 확인하였습니다.<br>
 
-* Firefox를 사용하는 Web crawler를 포함하고 있어, Linux에 Firefox와 geckodriver를 설치하셔야 합니다.
-  * Firefox
+Firefox를 사용하는 Web crawler를 포함하고 있어, Linux에 Firefox와 geckodriver를 설치하셔야 합니다.
+* Firefox
   ```shell
   sudo apt-get install firefox
   ```
-  * geckodriver
-  - https://github.com/mozilla/geckodriver/releases
-  - 압축을 풀어서 나오는 geckodriver 실행파일을 ```/usr/bin/```, ```~/anaconda3/``` 등 PATH 추가된 곳에 넣기
+* geckodriver
+  * 다운로드: https://github.com/mozilla/geckodriver/releases
+  * 압축을 풀어서 나오는 geckodriver 실행파일을 ```/usr/bin/```, ```~/anaconda3/``` 등 PATH 추가된 곳에 넣기
 
 * Anaconda3 5.2.0 사용하여 가상환경 내에서 실행하였습니다.
   - 혹시 설치가 필요한 경우 다음 글을 참조하세요: https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart
